@@ -131,7 +131,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DepthSplit: 2
+    - _DepthSplit: 3.33
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DisplaceToMaskRatio: 0.559
