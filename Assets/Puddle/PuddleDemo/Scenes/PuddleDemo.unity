@@ -1107,7 +1107,7 @@ MonoBehaviour:
   _animateSpeed: 0.438
   _maxDampness: 0.39
   _dampnessOffset: 0
-  _waterLevelOffset: 0.1
+  _waterLevelOffset: 0.197
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
