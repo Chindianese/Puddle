@@ -70,6 +70,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Height:
+        m_Texture: {fileID: 2800000, guid: 10be3d6f525e30c4faea5531157194e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -98,6 +102,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _PuddleMask:
+        m_Texture: {fileID: 2800000, guid: 5a993113ba751624d8e9a105432d097e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Roughness:
         m_Texture: {fileID: 2800000, guid: 72957516890a30344b525020f6d7ea1f, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -107,6 +115,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Water:
+        m_Texture: {fileID: 2800000, guid: 5130dd704f09f7043801276d2a5faecd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTexture:
         m_Texture: {fileID: 2800000, guid: 5130dd704f09f7043801276d2a5faecd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -131,12 +143,13 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DepthSplit: 3.33
+    - _Dampness: 0
+    - _DepthSplit: 4.6
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DisplaceToMaskRatio: 0.559
+    - _DisplaceToMaskRatio: 0.61
     - _DstBlend: 0
-    - _EdgeSize: 0.54
+    - _EdgeSize: 0.8
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -147,6 +160,7 @@ Material:
     - _Parallax: 0.005
     - _Porous: 1
     - _PorousSize: 0.35
+    - _PorousStrength: 0.45
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -155,7 +169,8 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WaterHeight: 0.221
+    - _VertexDisplacementHeight: 0
+    - _WaterHeight: 0.17
     - _WaterThickness: 10.69
     - _WorkflowMode: 1
     - _ZWrite: 1

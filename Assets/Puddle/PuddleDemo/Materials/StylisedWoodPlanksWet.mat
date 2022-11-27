@@ -57,6 +57,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Height:
+        m_Texture: {fileID: 2800000, guid: 74a07167c057d4b42bd7c7143abadefa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: f46516f4f0e2d884dba9d90cc6599aa9, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -85,6 +89,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _PuddleMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Roughness:
         m_Texture: {fileID: 2800000, guid: ff71876e318620149839a05a887cc1c3, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -95,6 +103,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Water:
         m_Texture: {fileID: 2800000, guid: 5130dd704f09f7043801276d2a5faecd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTexture:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -118,7 +130,8 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DepthSplit: 2
+    - _Dampness: 0.39
+    - _DepthSplit: 2.27
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DisplaceToMaskRatio: 1
@@ -133,7 +146,8 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Porous: 5.08
-    - _PorousSize: 2.64
+    - _PorousSize: 7.57
+    - _PorousStrength: 0.79
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -142,6 +156,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
+    - _VertexDisplacementHeight: 0
     - _WaterHeight: 0.094
     - _WaterThickness: 4.24
     - _WorkflowMode: 1
