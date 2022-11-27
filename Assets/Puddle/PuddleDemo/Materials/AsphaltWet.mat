@@ -145,6 +145,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Height: 0
+    - _MaxHeight: 0.229
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -160,7 +161,7 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _VertexDisplacementHeight: 0
-    - _WaterHeight: 0.144
+    - _WaterHeight: 0.602
     - _WaterThickness: 3.41
     - _WorkflowMode: 1
     - _ZWrite: 1

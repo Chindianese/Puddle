@@ -156,6 +156,7 @@ Material:
     - _GlossyReflections: 0
     - _Height: 0
     - _MaskStrength: 0.18
+    - _MaxHeight: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.08
