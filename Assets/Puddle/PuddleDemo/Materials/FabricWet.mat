@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StonePathWet
+  m_Name: FabricWet
   m_Shader: {fileID: -6465566751694194690, guid: e870847c95034544180b4ead46006574,
     type: 3}
   m_ValidKeywords: []
@@ -22,19 +22,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AO:
-        m_Texture: {fileID: 2800000, guid: 5be8792c517da28498c6e396506c2a11, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9f65c1d02aa74e546b1b47f8cd5a05ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 8ac88bcf00e9d6b4b9f043adcf151dc2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5ab56a08a05a55247adc3e9e7815cc35, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 8ac88bcf00e9d6b4b9f043adcf151dc2, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: fe8dd28ea756c3842a13a66520a8c8c3, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -49,24 +49,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Displacement:
-        m_Texture: {fileID: 2800000, guid: 66f548ab8f51e7640abfe563dccc8b22, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Height:
-        m_Texture: {fileID: 2800000, guid: 66f548ab8f51e7640abfe563dccc8b22, type: 3}
+        m_Texture: {fileID: 2800000, guid: f7ce88c29468cb44090ca07b9554847c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8ac88bcf00e9d6b4b9f043adcf151dc2, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Mask:
-        m_Texture: {fileID: 2800000, guid: 5113bea5c89a91c4bbb211c685a98566, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Metallic:
@@ -78,39 +70,27 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: fe8dd28ea756c3842a13a66520a8c8c3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 58d575ae4d9c4a948bc58271e87f96f0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 5be8792c517da28498c6e396506c2a11, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 66f548ab8f51e7640abfe563dccc8b22, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PuddleMask:
-        m_Texture: {fileID: 2800000, guid: 5a993113ba751624d8e9a105432d097e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Roughness:
-        m_Texture: {fileID: 2800000, guid: 67aa1ddd1f134ff49be16a51c9f718ca, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2DLOD_ce352dd2e01f449eb9ca52b0dbdf1dbf_Texture_1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_fd80df13af69434f8c7571450c24756d_Texture_1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 58d575ae4d9c4a948bc58271e87f96f0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: 67aa1ddd1f134ff49be16a51c9f718ca, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Water:
-        m_Texture: {fileID: 2800000, guid: 5130dd704f09f7043801276d2a5faecd, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterTexture:
@@ -138,32 +118,24 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Dampness: 0.254
-    - _DepthBeforeWater: 2
-    - _DepthSplit: 2.53
+    - _Dampness: 0
+    - _DepthSplit: 1.75
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DisplaceMid: 0.04
-    - _DisplaceStrength: 1.68
-    - _DisplaceToMaskRatio: 0.84
-    - _DisplacementContrast: 1
-    - _DisplacementHeight: 9.56
+    - _DisplaceToMaskRatio: 1
     - _DstBlend: 0
-    - _EdgeSize: 0.05
-    - _EdgeStrength: 0.25
+    - _EdgeSize: 0
+    - _EdgeStrength: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Height: 0
-    - _MaskStrength: 0.18
-    - _MaxHeight: 0.619
+    - _MaxHeight: 0.322
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _Parallax: 0.08
-    - _Porous: 0.6
-    - _PorousSize: 0.37
-    - _PorousStrength: 0.51
+    - _Parallax: 0.005
+    - _PorousSize: 4.57
+    - _PorousStrength: 0.63
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -173,8 +145,8 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _VertexDisplacementHeight: 0
-    - _WaterHeight: 0.619
-    - _WaterThickness: 2.54
+    - _WaterHeight: 0
+    - _WaterThickness: 2.94
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -182,9 +154,9 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _WaterColor: {r: 0.0719562, g: 0.1981132, b: 0.14959128, a: 1}
+    - _WaterColor: {r: 0.18525274, g: 0.21368292, b: 0.21698111, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &6925866613090684259
+--- !u!114 &1706205032915484858
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
