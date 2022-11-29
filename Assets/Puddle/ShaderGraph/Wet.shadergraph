@@ -96,6 +96,12 @@
         },
         {
             "m_Id": "b3f3d6f32ca842bf96ef26dfa7e0bfa2"
+        },
+        {
+            "m_Id": "258f3d61b654465b8041161fb3a13a8f"
+        },
+        {
+            "m_Id": "88b868ed6d274728b98a797ae7c2f984"
         }
     ],
     "m_Nodes": [
@@ -4335,6 +4341,24 @@
     },
     "m_Labels": [],
     "m_Channel": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "258f3d61b654465b8041161fb3a13a8f",
+    "m_Name": "Mask",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "fb6b9ce812d94f4f95148efb4671f52a"
+        },
+        {
+            "m_Id": "dacda49a5c19479f940e30fa5098c7b7"
+        },
+        {
+            "m_Id": "9936a7310feb4246bd1baabaf7146701"
+        }
+    ]
 }
 
 {
@@ -9456,6 +9480,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "88b868ed6d274728b98a797ae7c2f984",
+    "m_Name": "Edge",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "1574bbafc5d341fbbcb9667464037b21"
+        },
+        {
+            "m_Id": "c2a80c4058fd4599a37ebe698165409d"
+        },
+        {
+            "m_Id": "a6f40023879941d4a40c7c99610c7e07"
+        },
+        {
+            "m_Id": "6ba577190b0d44c0b552be17f37ed606"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DivideNode",
     "m_ObjectId": "8998c9fc9939404ab462e01fe7abd14b",
     "m_Group": {
@@ -11604,34 +11649,13 @@
             "m_Id": "e215cfd57a75407b8f73ab55bb050bca"
         },
         {
-            "m_Id": "b23fc75df11f4397a4450cae8c7dd887"
+            "m_Id": "66da109adb1a4b77a075cb589c9a974b"
         },
         {
             "m_Id": "16048e1562424d398d462cba93b9968a"
         },
         {
-            "m_Id": "66da109adb1a4b77a075cb589c9a974b"
-        },
-        {
-            "m_Id": "fb6b9ce812d94f4f95148efb4671f52a"
-        },
-        {
-            "m_Id": "dacda49a5c19479f940e30fa5098c7b7"
-        },
-        {
-            "m_Id": "c2a80c4058fd4599a37ebe698165409d"
-        },
-        {
-            "m_Id": "1574bbafc5d341fbbcb9667464037b21"
-        },
-        {
-            "m_Id": "a6f40023879941d4a40c7c99610c7e07"
-        },
-        {
-            "m_Id": "6ba577190b0d44c0b552be17f37ed606"
-        },
-        {
-            "m_Id": "9936a7310feb4246bd1baabaf7146701"
+            "m_Id": "b23fc75df11f4397a4450cae8c7dd887"
         },
         {
             "m_Id": "e2838d4830f4404eaf0e36f43557ccaf"
@@ -14381,19 +14405,19 @@
             "m_Id": "f3c809c1672044d4920668c925301c40"
         },
         {
+            "m_Id": "92cde16d60d2414ab95b795328ff9661"
+        },
+        {
+            "m_Id": "67feba91fb0d4491997d695fbb0e1215"
+        },
+        {
             "m_Id": "603c47ef353740f2ac3a93d8c1edb091"
         },
         {
             "m_Id": "54127b074d8b47689d3f3889098a2996"
         },
         {
-            "m_Id": "92cde16d60d2414ab95b795328ff9661"
-        },
-        {
             "m_Id": "c842ca8d9f0e42049a3fa8cb7f3156bb"
-        },
-        {
-            "m_Id": "67feba91fb0d4491997d695fbb0e1215"
         },
         {
             "m_Id": "21ff992c85f94870a61ba688d8feb4d4"
