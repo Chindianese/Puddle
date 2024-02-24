@@ -74,8 +74,12 @@ Material:
         m_Texture: {fileID: 2800000, guid: 10be3d6f525e30c4faea5531157194e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: 10be3d6f525e30c4faea5531157194e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e463682a7964ce346a05e02a07189e33, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
@@ -91,6 +95,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
+        m_Texture: {fileID: 2800000, guid: dae5157038a301247bb3f6e6cdee931d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
         m_Texture: {fileID: 2800000, guid: dae5157038a301247bb3f6e6cdee931d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -150,11 +158,14 @@ Material:
     - _DisplaceToMaskRatio: 0.61
     - _DstBlend: 0
     - _EdgeSize: 0.8
+    - _EdgeStrength: 0.25
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Height: 0
+    - _HeightContrast: 1
+    - _HeightScale: 1
     - _MaxHeight: 0.356
     - _Metallic: 0
     - _OcclusionStrength: 1
@@ -176,9 +187,15 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - _AlbedoOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AlbedoTiling: {r: 1, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MaskOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskTiling: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _WaterColor: {r: 0.6019491, g: 0.764151, b: 0.6395553, a: 0}
+    - _WaterOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _WaterTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -61,6 +61,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 66f548ab8f51e7640abfe563dccc8b22, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: 66f548ab8f51e7640abfe563dccc8b22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 8ac88bcf00e9d6b4b9f043adcf151dc2, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -78,6 +82,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
+        m_Texture: {fileID: 2800000, guid: fe8dd28ea756c3842a13a66520a8c8c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
         m_Texture: {fileID: 2800000, guid: fe8dd28ea756c3842a13a66520a8c8c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -138,14 +146,14 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Dampness: 0.254
+    - _Dampness: 0
     - _DepthBeforeWater: 2
     - _DepthSplit: 2.53
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DisplaceMid: 0.04
     - _DisplaceStrength: 1.68
-    - _DisplaceToMaskRatio: 0.84
+    - _DisplaceToMaskRatio: 1
     - _DisplacementContrast: 1
     - _DisplacementHeight: 9.56
     - _DstBlend: 0
@@ -157,7 +165,7 @@ Material:
     - _GlossyReflections: 0
     - _Height: 0
     - _MaskStrength: 0.18
-    - _MaxHeight: 0.619
+    - _MaxHeight: 0.635
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.08
@@ -178,11 +186,17 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - _AlbedoOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AlbedoTiling: {r: 1, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MaskOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskTiling: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _WaterColor: {r: 0.0719562, g: 0.1981132, b: 0.14959128, a: 1}
+    - _WaterOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _WaterTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6925866613090684259
 MonoBehaviour:
