@@ -29,12 +29,12 @@ public class AnimateWaterLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float sin = (Mathf.Sin(_animateSpeed * Time.time) *(0.5f-_waterLevelOffset) + 0.5f + _waterLevelOffset);
-        float sin2 = (Mathf.Sin(_animateSpeed * Time.time) *(0.5f + _dampnessOffset) + 0.5f+ _dampnessOffset);
+        float sin = 1-(Mathf.Cos(_animateSpeed * Time.time) + 1.0f)/2;
+        float sin2 = (Mathf.Sin(_animateSpeed * Time.time) * (0.5f + _dampnessOffset) + 0.5f+ _dampnessOffset);
         //Debug.Log(sin);
         _currentWaterLevel = sin;
         _currentDampness = Mathf.Min(sin2,_maxDampness);
-        _mat.SetFloat("_WaterHeight", _currentWaterLevel);
-        _mat.SetFloat("_Dampness", _currentDampness);
+        _mat.SetFloat("_Water_Height", _currentWaterLevel);
+        // _mat.SetFloat("_Dampness", _currentDampness);
     }
 }
