@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BarkWet
-  m_Shader: {fileID: -6465566751694194690, guid: e870847c95034544180b4ead46006574,
+  m_Shader: {fileID: -6465566751694194690, guid: 3c5d8f46a84c5e64180869de6397f419,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -43,6 +43,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 64dc85cc0f3fdcb4a80270c0cb93fae8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Map:
         m_Texture: {fileID: 2800000, guid: 64dc85cc0f3fdcb4a80270c0cb93fae8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -78,6 +82,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: f5cafd9699b1d154396046fc3f0c90ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Height_Map:
+        m_Texture: {fileID: 2800000, guid: f5cafd9699b1d154396046fc3f0c90ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 64dc85cc0f3fdcb4a80270c0cb93fae8, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -102,6 +110,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 9b03cc6d89a0bfa4a99b919e0781b2fd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 9b03cc6d89a0bfa4a99b919e0781b2fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 2800000, guid: 9b1e435e6b39e374f8da5fe02a3a88e7, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -111,10 +123,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PuddleMask:
+        m_Texture: {fileID: 2800000, guid: 5113bea5c89a91c4bbb211c685a98566, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Puddle_Mask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Ripple_Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 1f1fe1767ea3d3647af8bce4dd2150bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Roughness:
+        m_Texture: {fileID: 2800000, guid: 379e9d88d7feae34bb331fb6305002c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness_Map:
         m_Texture: {fileID: 2800000, guid: 379e9d88d7feae34bb331fb6305002c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -169,17 +193,27 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Height: 0
+    - _HeightContrast: 1
+    - _HeightScale: 1
     - _MaskStrength: 0
+    - _MaskToHeightRatio: 0.5
+    - _Mask_To_Height_Ratio: 1
     - _MaxHeight: 0.237
+    - _Max_Height: 5.17
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _Porous: 0.66
+    - _Porous: 4.14
     - _PorousSize: 12.26
     - _PorousStrength: 0.51
+    - _Porous_Size: 0.5
+    - _Pourous: 3.32
+    - _Pourous_Size: 1.39
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Reflectiveness: 0.047
+    - _Ripple_Strength: 0.5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -188,6 +222,7 @@ Material:
     - _VertexDisplacementHeight: 0
     - _WaterHeight: 0.314
     - _WaterThickness: 7.76
+    - _Water_Height: 0.623
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -198,8 +233,19 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MaskOffset: {r: 0, g: 0, b: 0, a: 0}
     - _MaskTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _PorousColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Porous_Color: {r: 0.4528302, g: 0.24318261, b: 0.13029547, a: 0}
+    - _PuddleTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Puddle_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Puddle_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _RippleSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _Ripple_Speed: {r: 1, g: 1, b: 0, a: 0}
+    - _Ripple_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _WaterColor: {r: 0.40837485, g: 0.49927717, b: 0.5377358, a: 0}
     - _WaterOffset: {r: 0, g: 0, b: 0, a: 0}
     - _WaterTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Water_Color: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

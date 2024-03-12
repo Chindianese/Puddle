@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: StylisedStoneFloorWet
-  m_Shader: {fileID: -6465566751694194690, guid: e870847c95034544180b4ead46006574,
+  m_Shader: {fileID: -6465566751694194690, guid: 3c5d8f46a84c5e64180869de6397f419,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -44,6 +44,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Map:
+        m_Texture: {fileID: 2800000, guid: e463682a7964ce346a05e02a07189e33, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -78,6 +82,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 10be3d6f525e30c4faea5531157194e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Height_Map:
+        m_Texture: {fileID: 2800000, guid: 10be3d6f525e30c4faea5531157194e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: e463682a7964ce346a05e02a07189e33, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -102,6 +110,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: dae5157038a301247bb3f6e6cdee931d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: dae5157038a301247bb3f6e6cdee931d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -114,7 +126,19 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5a993113ba751624d8e9a105432d097e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Puddle_Mask:
+        m_Texture: {fileID: 2800000, guid: 5113bea5c89a91c4bbb211c685a98566, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ripple_Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 1f1fe1767ea3d3647af8bce4dd2150bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Roughness:
+        m_Texture: {fileID: 2800000, guid: 72957516890a30344b525020f6d7ea1f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness_Map:
         m_Texture: {fileID: 2800000, guid: 72957516890a30344b525020f6d7ea1f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -166,16 +190,24 @@ Material:
     - _Height: 0
     - _HeightContrast: 1
     - _HeightScale: 1
+    - _MaskToHeightRatio: 1
+    - _Mask_To_Height_Ratio: 0.5
     - _MaxHeight: 0.356
+    - _Max_Height: 5.62
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Porous: 1
     - _PorousSize: 0.35
     - _PorousStrength: 0.45
+    - _Porous_Size: 0.5
+    - _Pourous: 0
+    - _Pourous_Size: 2.47
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Reflectiveness: 0.297
+    - _Ripple_Strength: 0.5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -184,6 +216,7 @@ Material:
     - _VertexDisplacementHeight: 0
     - _WaterHeight: 0.534
     - _WaterThickness: 10.69
+    - _Water_Height: 0.246
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -194,8 +227,18 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MaskOffset: {r: 0, g: 0, b: 0, a: 0}
     - _MaskTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Porous_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _PuddleTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Puddle_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Puddle_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _RippleSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _Ripple_Speed: {r: 1, g: 1, b: 0, a: 0}
+    - _Ripple_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _WaterColor: {r: 0.6019491, g: 0.764151, b: 0.6395553, a: 0}
     - _WaterOffset: {r: 0, g: 0, b: 0, a: 0}
     - _WaterTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Water_Color: {r: 0.5271004, g: 0.9480264, b: 0.9716981, a: 0}
   m_BuildTextureStacks: []

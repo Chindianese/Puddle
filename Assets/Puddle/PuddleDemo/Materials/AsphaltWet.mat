@@ -113,6 +113,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 1ff1b87b130084b4780682794795a441, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Puddle_Mask:
+        m_Texture: {fileID: 2800000, guid: 5113bea5c89a91c4bbb211c685a98566, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Ripple_Normal_Map:
         m_Texture: {fileID: 2800000, guid: 1f1fe1767ea3d3647af8bce4dd2150bc, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -177,21 +181,24 @@ Material:
     - _HeightContrast: 131.21
     - _HeightScale: 7.1
     - _MaskToHeightRatio: 0.5
+    - _Mask_To_Height_Ratio: 0.628
     - _MaxHeight: 0.898
-    - _Max_Height: 7.89
+    - _Max_Height: 6.25
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _Porous: 0.7
+    - _Porous: 10
     - _PorousSize: 17.03
     - _PorousStrength: 0.72
-    - _Pourous: 3.03
-    - _Pourous_Size: 1.03
+    - _Porous_Size: 0.72
+    - _Pourous: 0
+    - _Pourous_Size: 0.46
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Reflectiveness: 0
-    - _Ripple_Strength: 0.5
+    - _Reflectiveness: 1
+    - _Ripple_Strength: 0.01
+    - _Shinyness: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -200,7 +207,7 @@ Material:
     - _VertexDisplacementHeight: 0
     - _WaterHeight: 0.704
     - _WaterThickness: 0.48
-    - _Water_Height: 0.806
+    - _Water_Height: 0.404
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -212,9 +219,12 @@ Material:
     - _MaskOffset: {r: 0, g: 0, b: 0, a: 0}
     - _MaskTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Porous_Color: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 0}
     - _PuddleTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Puddle_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Puddle_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _RippleSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _Ripple_Speed: {r: 1, g: 1, b: 0, a: 0}
     - _Ripple_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
