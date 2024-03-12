@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DemoPuddle
-  m_Shader: {fileID: -6465566751694194690, guid: 3c5d8f46a84c5e64180869de6397f419,
+  m_Name: PuddleMedium
+  m_Shader: {fileID: -6465566751694194690, guid: a12dab86b8bc2924bacd60f1a240c0b1,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,10 +21,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AO:
-        m_Texture: {fileID: 2800000, guid: 5be8792c517da28498c6e396506c2a11, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Base_Map:
         m_Texture: {fileID: 2800000, guid: 8ac88bcf00e9d6b4b9f043adcf151dc2, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -37,15 +33,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: fe8dd28ea756c3842a13a66520a8c8c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _PuddleMask:
+    - _Puddle_Map:
         m_Texture: {fileID: 2800000, guid: 5113bea5c89a91c4bbb211c685a98566, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Ripple_Normal_Map:
+    - _RippleNormalMap:
         m_Texture: {fileID: 2800000, guid: 1f1fe1767ea3d3647af8bce4dd2150bc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Roughness_Map:
+    - _Roughness:
         m_Texture: {fileID: 2800000, guid: 67aa1ddd1f134ff49be16a51c9f718ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -63,25 +59,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _MaskToHeightRatio: 0.531
-    - _Max_Height: 1.21
-    - _Pourous: 2.67
-    - _Pourous_Size: 0.75
+    - _Mask_to_Height_Ratio: 0.568
+    - _Max_Height: 1.6
+    - _Porous: 3
+    - _PorousSize: 1.43
+    - _PuddleSize: 0.9
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Reflectiveness: 0.897
-    - _Ripple_Strength: 0.64
+    - _RippleStrength: 0.18
     - _Water_Height: 0
-    m_Colors:
-    - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _PuddleTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Puddle_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _RippleSpeed: {r: 3, g: 3, b: 0, a: 0}
-    - _Ripple_Tiling: {r: 3, g: 3, b: 0, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Water_Color: {r: 0.5283019, g: 0.32833776, b: 0.18689926, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &6206194628071061692
+--- !u!114 &8874924082762187464
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
