@@ -65,6 +65,9 @@
         },
         {
             "m_Id": "7b34d2a3079b43e9a25d58e517feedc2"
+        },
+        {
+            "m_Id": "39b8171918af48e4afb1bac73c19894c"
         }
     ],
     "m_Keywords": [],
@@ -140,9 +143,6 @@
         },
         {
             "m_Id": "985bafb22ee34f82853ca5534bde73cb"
-        },
-        {
-            "m_Id": "0b64a2ff5dc84279b82fe580342077a3"
         },
         {
             "m_Id": "c37e36242f90497da785bb09eb2427e8"
@@ -278,6 +278,9 @@
         },
         {
             "m_Id": "f7abe6eb593f487aa9fad5031ce641e1"
+        },
+        {
+            "m_Id": "c3ecd6523a084c058e2c223ba51074ae"
         }
     ],
     "m_GroupDatas": [
@@ -390,20 +393,6 @@
                     "m_Id": "5981a6c2f2704c48b05a3620cd2d5182"
                 },
                 "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "0b64a2ff5dc84279b82fe580342077a3"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "c22cef30dabc42779d3756efe5ee1620"
-                },
-                "m_SlotId": 287053822
             }
         },
         {
@@ -1151,6 +1140,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "c3ecd6523a084c058e2c223ba51074ae"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "985bafb22ee34f82853ca5534bde73cb"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "ca6f8575223b4e439e76b55313e53149"
                 },
                 "m_SlotId": 0
@@ -1621,41 +1624,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "0b64a2ff5dc84279b82fe580342077a3",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -804.9999389648438,
-            "y": 1368.0001220703125,
-            "width": 182.0,
-            "height": 34.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "da0b25c69d8e47f38f63bdf31fbd22fa"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "1f5038d9b83c454b83e94f66a1ef81ad"
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "0d70c35c729d4ce6975ae2776c2e62d7",
     "m_Id": 0,
@@ -1713,7 +1681,7 @@
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_Ripple_Strength",
-    "m_StageCapability": 2,
+    "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
@@ -1967,6 +1935,31 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "196033adb38c49589c11ea1cc2a7b4ac",
+    "m_Id": 0,
+    "m_DisplayName": "Porous Color",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_Labels": []
 }
 
 {
@@ -2735,10 +2728,10 @@
     "m_Guid": {
         "m_GuidSerialized": "29df8529-eed4-458e-93f7-df7cf7c58bd7"
     },
-    "m_Name": "Pourous",
+    "m_Name": "Porous",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Pourous",
-    "m_DefaultReferenceName": "_Pourous",
+    "m_RefNameGeneratedByDisplayName": "Porous",
+    "m_DefaultReferenceName": "_Porous",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2913,6 +2906,35 @@
 }
 
 {
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "39b8171918af48e4afb1bac73c19894c",
+    "m_Guid": {
+        "m_GuidSerialized": "549f061f-61f5-481b-982b-f48bf410f93f"
+    },
+    "m_Name": "Porous Color",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Porous Color",
+    "m_DefaultReferenceName": "_Porous_Color",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "3a44af87f1a04cb48c22eea4f6ba1d8d",
@@ -2989,7 +3011,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "3d9e45a0b7e34d6b934b66618b878c5e",
     "m_Id": 0,
-    "m_DisplayName": "Pourous",
+    "m_DisplayName": "Porous",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3347,7 +3369,7 @@
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_RippleSpeed",
-    "m_StageCapability": 2,
+    "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
         "y": 0.0
@@ -4167,11 +4189,11 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "683e9f840c694e5faa0e1b3fd2b9509a",
     "m_Id": 1,
-    "m_DisplayName": "Out_Vector4",
+    "m_DisplayName": "_out",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "OutVector4",
-    "m_StageCapability": 2,
+    "m_ShaderOutputName": "_out",
+    "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
         "y": 0.0,
@@ -4194,10 +4216,10 @@
     "m_Guid": {
         "m_GuidSerialized": "af39f3bd-b2d9-4029-895f-93a164415f7c"
     },
-    "m_Name": "RippleSpeed",
+    "m_Name": "Ripple Speed",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "RippleSpeed",
-    "m_DefaultReferenceName": "_RippleSpeed",
+    "m_RefNameGeneratedByDisplayName": "Ripple Speed",
+    "m_DefaultReferenceName": "_Ripple_Speed",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -4398,10 +4420,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2199.999755859375,
-            "y": 126.00010681152344,
+            "x": 1910.0,
+            "y": 203.99998474121095,
             "width": 56.0,
-            "height": 23.999893188476564
+            "height": 24.000015258789064
         }
     },
     "m_Slots": [
@@ -4565,9 +4587,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
         "a": 0.0
     },
     "isMainColor": false,
@@ -4585,6 +4607,9 @@
         },
         {
             "m_Id": "0914962580d547c1964f52a3fd9d5087"
+        },
+        {
+            "m_Id": "39b8171918af48e4afb1bac73c19894c"
         },
         {
             "m_Id": "e875166a1894407792883bd9e95fb9b5"
@@ -4822,7 +4847,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "845d9e13c755410c8b734745473919c3",
     "m_Id": 0,
-    "m_DisplayName": "PuddleMask",
+    "m_DisplayName": "Puddle Mask",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -6236,10 +6261,10 @@
     "m_Guid": {
         "m_GuidSerialized": "4e8a7e17-2d4d-4f36-9466-43cf4b97854f"
     },
-    "m_Name": "MaskToHeightRatio",
+    "m_Name": "Mask To Height Ratio",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "MaskToHeightRatio",
-    "m_DefaultReferenceName": "_MaskToHeightRatio",
+    "m_RefNameGeneratedByDisplayName": "Mask To Height Ratio",
+    "m_DefaultReferenceName": "_Mask_To_Height_Ratio",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -6834,9 +6859,6 @@
             "m_Id": "1050dcc443e04d34888e59e73cde8c27"
         },
         {
-            "m_Id": "eb4122f26c964241b732ffae17f862da"
-        },
-        {
             "m_Id": "e44e4e4ce71c4e3d9f045617bca510f6"
         },
         {
@@ -6951,6 +6973,41 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "c3ecd6523a084c058e2c223ba51074ae",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -243.80003356933595,
+            "y": -537.050048828125,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "196033adb38c49589c11ea1cc2a7b4ac"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "39b8171918af48e4afb1bac73c19894c"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
     "m_ObjectId": "c45f521d9538450d834e3c13d1073b2b",
     "m_Id": 0,
@@ -7035,10 +7092,10 @@
     "m_Guid": {
         "m_GuidSerialized": "9fd7e511-ad93-4c5e-bb69-a04518b26608"
     },
-    "m_Name": "PuddleMask",
+    "m_Name": "Puddle Mask",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "PuddleMask",
-    "m_DefaultReferenceName": "_PuddleMask",
+    "m_RefNameGeneratedByDisplayName": "Puddle Mask",
+    "m_DefaultReferenceName": "_Puddle_Mask",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -7383,7 +7440,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "d88e910f483a4bbc88b0c86fe6eb01a6",
     "m_Id": 0,
-    "m_DisplayName": "PuddleTiling",
+    "m_DisplayName": "Puddle Tiling",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7408,7 +7465,7 @@
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_Puddle_Mask",
-    "m_StageCapability": 2,
+    "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
@@ -7419,7 +7476,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "d8e99f62c8d3427d93c68f028803006c",
     "m_Id": 0,
-    "m_DisplayName": "RippleSpeed",
+    "m_DisplayName": "Ripple Speed",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7457,19 +7514,6 @@
         "z": 0.0,
         "w": 0.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
-    "m_ObjectId": "da0b25c69d8e47f38f63bdf31fbd22fa",
-    "m_Id": 0,
-    "m_DisplayName": "Ripple Normal Map",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_BareResource": false
 }
 
 {
@@ -7585,10 +7629,10 @@
     "m_Guid": {
         "m_GuidSerialized": "3d9d534e-0abb-481c-9806-b6b1b19dd83e"
     },
-    "m_Name": "PuddleTiling",
+    "m_Name": "Puddle Tiling",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "PuddleTiling",
-    "m_DefaultReferenceName": "_PuddleTiling",
+    "m_RefNameGeneratedByDisplayName": "Puddle Tiling",
+    "m_DefaultReferenceName": "_Puddle_Tiling",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -7649,7 +7693,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "e393b4c7b91b4c33a0a60c084c890293",
     "m_Id": 0,
-    "m_DisplayName": "MaskToHeightRatio",
+    "m_DisplayName": "Mask To Height Ratio",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7664,11 +7708,11 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "e44e4e4ce71c4e3d9f045617bca510f6",
     "m_Id": -1331382290,
-    "m_DisplayName": "Ripple Normal Map (1)",
+    "m_DisplayName": "Ripple Normal Map",
     "m_SlotType": 0,
     "m_Hidden": false,
-    "m_ShaderOutputName": "_Ripple_Normal_Map_1",
-    "m_StageCapability": 2,
+    "m_ShaderOutputName": "_Ripple_Normal_Map",
+    "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
         "y": 0.0,
@@ -7728,7 +7772,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "e59d17073c5d433595f75bdd5a0a987d",
     "m_Id": 0,
-    "m_DisplayName": "Pourous Size",
+    "m_DisplayName": "Porous Size",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7820,10 +7864,10 @@
     "m_Guid": {
         "m_GuidSerialized": "a8f0794d-fbcc-4949-b530-547318cede85"
     },
-    "m_Name": "Pourous Size",
+    "m_Name": "Porous Size",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Pourous Size",
-    "m_DefaultReferenceName": "_Pourous_Size",
+    "m_RefNameGeneratedByDisplayName": "Porous Size",
+    "m_DefaultReferenceName": "_Porous_Size",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -7976,24 +8020,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Texture2DInputMaterialSlot",
-    "m_ObjectId": "eb4122f26c964241b732ffae17f862da",
-    "m_Id": 287053822,
-    "m_DisplayName": "Ripple Normal Map",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "_Ripple_Normal_Map",
-    "m_StageCapability": 2,
-    "m_BareResource": false,
-    "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
-        "m_Guid": ""
-    },
-    "m_DefaultType": 0
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "ed052e557735456094d4197f867e8a77",
     "m_Id": 6,
@@ -8076,7 +8102,7 @@
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_Ripple_Tiling",
-    "m_StageCapability": 2,
+    "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
         "y": 0.0

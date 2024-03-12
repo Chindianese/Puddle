@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: StonePathWet
-  m_Shader: {fileID: -6465566751694194690, guid: e870847c95034544180b4ead46006574,
+  m_Shader: {fileID: -6465566751694194690, guid: 3c5d8f46a84c5e64180869de6397f419,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -30,6 +30,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 8ac88bcf00e9d6b4b9f043adcf151dc2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Map:
         m_Texture: {fileID: 2800000, guid: 8ac88bcf00e9d6b4b9f043adcf151dc2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -65,6 +69,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 66f548ab8f51e7640abfe563dccc8b22, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Height_Map:
+        m_Texture: {fileID: 2800000, guid: 66f548ab8f51e7640abfe563dccc8b22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 8ac88bcf00e9d6b4b9f043adcf151dc2, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -89,6 +97,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: fe8dd28ea756c3842a13a66520a8c8c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: fe8dd28ea756c3842a13a66520a8c8c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 2800000, guid: 5be8792c517da28498c6e396506c2a11, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -101,7 +113,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5a993113ba751624d8e9a105432d097e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Ripple_Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 1f1fe1767ea3d3647af8bce4dd2150bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Roughness:
+        m_Texture: {fileID: 2800000, guid: 67aa1ddd1f134ff49be16a51c9f718ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness_Map:
         m_Texture: {fileID: 2800000, guid: 67aa1ddd1f134ff49be16a51c9f718ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -167,17 +187,22 @@ Material:
     - _HeightContrast: 1
     - _HeightScale: 1
     - _MaskStrength: 0.18
+    - _MaskToHeightRatio: 0.5
     - _MaxHeight: 0.808
-    - _Max_Height: 1
+    - _Max_Height: 1.55
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.08
     - _Porous: 0.6
     - _PorousSize: 0.64
     - _PorousStrength: 0.69
+    - _Pourous: 0.5
+    - _Pourous_Size: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Reflectiveness: 1
+    - _Ripple_Strength: 0.5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -186,7 +211,7 @@ Material:
     - _VertexDisplacementHeight: 0
     - _WaterHeight: 0.601
     - _WaterThickness: 2.54
-    - _Water_Height: 0.496
+    - _Water_Height: 0.499
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -197,10 +222,17 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MaskOffset: {r: 0, g: 0, b: 0, a: 0}
     - _MaskTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _PuddleTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Puddle_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _RippleSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _Ripple_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _WaterColor: {r: 0, g: 0, b: 0, a: 1}
     - _WaterOffset: {r: 0, g: 0, b: 0, a: 0}
     - _WaterTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Water_Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6925866613090684259
 MonoBehaviour:
