@@ -120,6 +120,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5a993113ba751624d8e9a105432d097e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _PuddleSubgraph_76b7bb347647449eac33e792891cdd15_RippleNormalMap_3033563812_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Puddle_Mask:
         m_Texture: {fileID: 2800000, guid: 5113bea5c89a91c4bbb211c685a98566, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -208,14 +212,14 @@ Material:
     - _Porous: 3.2
     - _PorousSize: 0.64
     - _PorousStrength: 0.69
-    - _Porous_Size: 0.39
+    - _Porous_Size: 0.47
     - _Pourous: 0.5
     - _Pourous_Size: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Reflectiveness: 0.684
-    - _Ripple_Strength: 0.2
+    - _Reflectiveness: 0.607
+    - _Ripple_Strength: 1.89
     - _Shinyness: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -225,9 +229,9 @@ Material:
     - _VertexDisplacementHeight: 0
     - _WaterHeight: 0.601
     - _WaterThickness: 2.54
-    - _Water_Height: 1
+    - _Water_Height: 0.534
     - _WorkflowMode: 1
-    - _World_Scale: 1
+    - _World_Scale: 0.64
     - _ZWrite: 1
     m_Colors:
     - _AlbedoOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -244,13 +248,13 @@ Material:
     - _Puddle_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _RippleSpeed: {r: 1, g: 1, b: 0, a: 0}
     - _Ripple_Speed: {r: 2, g: 2, b: 0, a: 0}
-    - _Ripple_Tiling: {r: 0.91, g: -0.28, b: 0, a: 0}
+    - _Ripple_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _WaterColor: {r: 0, g: 0, b: 0, a: 1}
     - _WaterOffset: {r: 0, g: 0, b: 0, a: 0}
     - _WaterTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Water_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Water_Color: {r: 0.5188679, g: 0.3033741, b: 0.22761656, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6925866613090684259
 MonoBehaviour:
